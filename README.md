@@ -6,8 +6,9 @@
 
 3. Core Classes and Interfaces
 
-User
-  Fields:
+
+User Fields:
+   
     name (String): The user's name.
     mood (int): A numerical representation of the user's mood (e.g., 1-5, with 1 being very low and 5 being very high).
     problem (String): A description of the user's current problem or concern.
@@ -19,7 +20,7 @@ User
    
 Therapist
 
-  Fields:
+    Fields:
     name (String): The therapist's name.
       Methods:
         greetUser(User user): Provides a welcoming message to the user.
@@ -30,12 +31,12 @@ Therapist
 ProblemAnalyzer (Interface)
 
 
-   Methods:
+     Methods:
         analyzeProblem(String problem): Analyzes the user's problem and returns a list of possible solutions.
         MoodBooster (Interface)
 
 
-  Methods:
+    Methods:
     boostMood(User user): Offers strategies or techniques to improve the user's mood.
 
 4. This will require lots of effort on my part, as I sturggle with interfaces, but I belive that between practice of that weakpoint and time enough to give multipe awnsers for the progam, this is something I can and wish to do.
